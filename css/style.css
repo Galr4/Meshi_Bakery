@@ -50,6 +50,11 @@ img {
   color: #997510;
 }
 
+.bg-dark {
+  color: #fffab8;
+  background: #997510;
+}
+
 /* Buttons */
 
 .btn-mid {
@@ -250,4 +255,37 @@ main {
 .column-2 p {
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+.gallery img:hover {
+  opacity: 0.7;
+}
+
+/* Section Header */
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header h4 {
+  color: #997510;
+  font-size: 30px;
+}
+
+/* Flex Grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
