@@ -5,21 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/utilities.css">
   <title>Meshi Bakery</title>
 </head>
 <body id="home">
   <header class="bake">
     <div id="navbar" class="navbar">
       <h1 class="logo">
-        <span class="text-primary"><i class="fa-solid fa-bread-slice fa-sm"></i> Meshi</span> Bakery
+        <span class="text-dark"><i class="fa-solid fa-bread-slice fa-sm"></i> Meshi</span> Bakery
       </h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#staff">Staff</a></li>
+          <li><a href="#stories">Stories</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -28,19 +27,21 @@
     <div class="content">
       <h1>It's All About The Bake</h1>
       <p>We provide homemade boutique pastry</p>
-      <a href="#about" class="btn"></i> Read More</a>
+      <a href="#about" class="btn-mid"></i> Read More</a>
     </div>
   </header>
 
   <main>
-    <!-- About Icons-->
+
+    <!-- About Icons -->
+
     <section id="about" class="icons">
       <div class="flex-items">
         <div>
           <i class="fa-solid fa-mug-hot fa-2x"></i>
           <div>
             <h3>Italian Coffee</h3>
-            <p>We make a wide variety of coffee made in Italy</p>
+            <p>We make a wide variety of coffee made in Italy, Boost your day!</p>
           </div>
         </div>
         <div>
@@ -60,20 +61,70 @@
       </div>
     </section>
 
-    <!-- About Menu -->
-    <section class="menu flex-colums"></section>
+    <!-- About Menu-->
+
+    <section class="flex-columns bg-mid">
       <div class="row">
         <div class="column">
-          <div class="column1">
-            
+          <div class="column-1">
+            <img src="images/menu.jpg" alt="">
           </div>
         </div>
         <div class="column">
-          <div class="column2">
-
+          <div class="column-2">
+            <h4>What you looking for</h4>
+            <h2>We provide all kinds of dairy catering</h2>
+            <p>including salads, pastry, toasts and more. Check our menu!</p>
+            <a href="#" class="btn-dark">Menu</a>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section id="gallery" class="gallery flex-grid section-padding">
+      <header class="section-header">
+        <h4>Small taste of our delicious menu</h4>
+      </header>
+      <div class="row">
+        <div class="column">
+          <img src="./images/gallery/photo1.jpg" alt="">
+          <img src="./images/gallery/photo2.jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./images/gallery/photo3.jpg" alt="">
+          <img src="./images/gallery/photo4.jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./images/gallery/photo5.jpg" alt="">
+          <img src="./images/gallery/photo6.jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./images/gallery/photo7.jpg" alt="">
+          <img src="./images/gallery/photo8.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Stories -->
+
+    <section id="stories" class="flex-columns bg-dark">
+      <div class="row">
+        <div class="column">
+          <div class="column-2">
+            <h2>Stories</h2>
+            <p>Anyone have a story, about family, childhood, friendship... We want to tell you about our story, the story that tells how it all started</p>
+            <a href="#" class="btn-mid">Read Our Story</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-1">
+            <img src="images/stories.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 </html>
