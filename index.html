@@ -19,6 +19,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#stories">Stories</a></li>
+          <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -63,7 +64,7 @@
 
     <!-- About Menu-->
 
-    <section class="flex-columns bg-mid">
+    <section class="flex-columns">
       <div class="row">
         <div class="column">
           <div class="column-1">
@@ -71,7 +72,7 @@
           </div>
         </div>
         <div class="column">
-          <div class="column-2">
+          <div class="column-2 bg-mid">
             <h4>What you looking for</h4>
             <h2>We provide all kinds of dairy catering</h2>
             <p>including salads, pastry, toasts and more. Check our menu!</p>
@@ -109,10 +110,10 @@
 
     <!-- Stories -->
 
-    <section id="stories" class="flex-columns bg-dark">
+    <section id="stories" class="flex-columns">
       <div class="row">
         <div class="column">
-          <div class="column-2">
+          <div class="column-2 bg-dark">
             <h2>Stories</h2>
             <p>Anyone have a story, about family, childhood, friendship... We want to tell you about our story, the story that tells how it all started</p>
             <a href="#" class="btn-mid">Read Our Story</a>
@@ -121,6 +122,65 @@
         <div class="column">
           <div class="column-1">
             <img src="images/stories.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+
+    <section id="team" class="team">
+      <header class="section-header">
+        <h4>Who we are</h4>
+        <h2>Our lovely team</h2>
+        <p>Our team wake up every day to give you the best pastry and service you can get</p>
+      </header>
+      <div class="flex-items">
+        <div>
+          <img src="images/team/team1.jpg" alt="">
+          <h3>Moshe</h3>
+          <p>CEO and Founder</p>
+        </div>
+        <div>
+          <img src="images/team/team2.jpg" alt="">
+          <h3>Flora</h3>
+          <p>Vice President</p>
+        </div>
+        <div>
+          <img src="images/team/team3.jpg" alt="">
+          <h3>Mika</h3>
+          <p>Chef</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="flex-columns contact">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="images/contact.jpg" alt="">
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2 bg-mid">
+            <h2>Request Callback</h2>
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+              </div>
+              <div class="form-control">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+              </div>
+              <div class="form-control">
+                <label for="phone"></label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Phone">
+              </div>
+              <input type="submit" value="Send" id="submit" class="btn-dark">
+            </form>
           </div>
         </div>
       </div>
