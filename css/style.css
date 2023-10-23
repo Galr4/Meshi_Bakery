@@ -261,6 +261,11 @@ main {
   opacity: 0.7;
 }
 
+.cfont {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 2rem;
+  }
+
 /* Section Header */
 
 .section-header {
@@ -351,6 +356,7 @@ main {
 .callback-form input:focus {
   outline-color: #997510;
 }
+
 .callback-form .btn-dark {
   padding: 12px 0;
   margin-top: 20px;
@@ -363,3 +369,112 @@ main {
   font-size: 45px;
 }
 
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column ;
+  text-align: center;
+  background: #997510;
+  color: #f4d278;
+}
+
+footer a {
+  background: #997510;
+  color: #fffab8; 
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social a {
+  padding: 10px;
+}
+
+.social p {
+  font-size: 12px;
+}
+
+/* Mobile */
+
+@media(max-width: 760px) {
+  .navbar {
+    flex-direction: column;
+    height: 100px; 
+    max-width: 760px;
+    opacity: unset;
+    z-index: 11;
+  }
+
+  .navbar a {
+    padding: 0;
+    font-size: 1.4rem;
+  }
+
+  .navbar a:hover {
+    border: none;
+  }
+
+  .content {
+    padding-top: 100px;
+  }
+
+  .icons {
+    padding-top: 90px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-items > div {
+    width: 100%;
+  }
+  
+  .flex-columns .column , .flex-grid .column{
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #cfont .column-2 {
+    align-items: center;
+    padding: 70px 10px;
+  }
+
+  #cfont img {
+    display: none;
+  }
+
+  .section-header {
+    padding: 100px 0;
+  }
+  #stories .column-2 {
+    padding: 110px 10px;
+    align-items: center;
+  }
+
+  #stories img {
+    display: none;
+  }
+
+  #contact .column-2 {
+    padding: 30px 10px;
+    align-items: center;
+  }
+
+  #contact img {
+    display: none;
+  }
+
+  .callback-form .form-control {
+    margin: 10px 0;
+  }
+}
